@@ -24,7 +24,7 @@ function App() {
                       <div className="col-sm no-pad">
                           <h2>Hello</h2>
                           <p>My name is Domas</p>
-                          <p>I am an amateur home music producer and hobbyist programmer</p>
+                          <p>I am an amateur home music producer and a hobbyist programmer</p>
                       </div>
                   </div>
                   <div className="row">
