@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import SimpleBar from 'simplebar-react';
+
+import 'simplebar/dist/simplebar.min.css';
 import './App.css';
+
+import Logo from "./components/Logo";
+import Header from "./components/Header";
+import Carousel from "./components/Carousel";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <SimpleBar id="myBar" style={{height: '100vh'}}>
+              <Header/>
+              <div className="container-fluid">
+                  <div className="row">
+                      <div className="col-sm">
+                          <Logo/>
+                      </div>
+                  </div>
+                  <div className="row">
+                      <div className="col-sm no-pad">
+                          <h2>Hello</h2>
+                          <p>My name is Domas</p>
+                          <p>I am an amateur home music producer and hobbyist programmer</p>
+                      </div>
+                  </div>
+                  <div className="row">
+                      <div className="col-sm no-pad">
+                          <Carousel/>
+                      </div>
+                  </div>
+              </div>
+          </SimpleBar>
+      </div>
   );
 }
 

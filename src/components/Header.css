@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgb(83, 99, 113);
+    color: #d1e6ff;
+    width: 100%;
+    position: relative;
+    top: 0;
+    transition: top 0.4s;
+}
+.navbar--hidden {
+    top: -80px;
+}
