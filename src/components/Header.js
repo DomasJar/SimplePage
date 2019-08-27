@@ -19,13 +19,11 @@ class Header extends Component {
     componentDidMount() {
         sBar = new SimpleBar(document.getElementById('myBar'), '');
         sBar.getScrollElement().addEventListener('scroll', this.handleScroll);
-        console.log('Did mount');
     }
 
     // Remove the event listener when the component is unmount.
     componentWillUnmount() {
         sBar.getScrollElement().removeEventListener('scroll', this.handleScroll);
-        console.log("HiHi");
     }
     // Hide or show the menu.
     handleScroll = () => {
@@ -43,7 +41,7 @@ class Header extends Component {
             <nav className={classNames("navbar", {"navbar--hidden": !this.state.visible})}>
                 <h1 className={"nav-item"}>DomasJar</h1>
                 <div className={"nav-item"}>
-                    <img src={'Spotify_Icon_CMYK_Black.png'} className={'nav-item'} style={{height: '48px'}}  alt={"icon"} onClick={()=> window.open("https://www.spotify.com", "_blank")}></img>
+                    <img src={'res/Spotify_Icon_CMYK_Black.png'} className={'nav-item'} style={{height: '48px'}}  alt={"icon"} onClick={()=> window.open("https://www.spotify.com", "_blank")}></img>
                 </div>
             </nav>
         );
