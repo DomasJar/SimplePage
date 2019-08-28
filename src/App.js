@@ -9,7 +9,8 @@ import Header from "./components/Header";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import ContactMe from "./components/ContactMe";
-
+import Intro from "./components/Intro";
+import Media from "./components/Media";
 function App() {
   return (
       <div className="App">
@@ -23,18 +24,16 @@ function App() {
                   </div>
                   <div className="row pad-ud">
                       <div className="col">
-                          <h2>Hello</h2>
-                          <p>My name is Domas</p>
-                          <p>I am an amateur music producer and a hobbyist programmer</p>
-                      </div>
-                  </div>
-                  <div className="row">
-                      <div className={"col no-pad"}>
-                          <Carousel/>
+                          <Intro/>
                       </div>
                   </div>
                   <div className="row pad-ud">
-                      <div className={"col no-pad"}>
+                      <div className={"col"}>
+                          <Media/>
+                      </div>
+                  </div>
+                  <div className="row pad-ud">
+                      <div className={"col "}>
                           <ContactMe/>
                       </div>
                   </div>

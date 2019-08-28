@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import classNames from 'classnames';
 
 import './Components.css'
+import classNames from "classnames";
 
-class ContactMe extends Component {
+class Intro extends Component {
     constructor (props) {
         super(props);
 
@@ -21,12 +21,13 @@ class ContactMe extends Component {
 
     render() {
         return (
+
             <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"cont"} >
                 <div >
-                    <p className={classNames("cont-2", {"o--reveal-2": !this.state.visible})}>Contact</p>
+                <p className={classNames("cont-2", {"o--reveal-2": !this.state.visible})}>Hello</p>
                 <div className={classNames("hidden", {"o--reveal": !this.state.visible})}>
-                    <p>Feel free to contact me if needed</p>
-                    <p>placeholder@email.com</p>
+                    <p>My name is Domas</p>
+                    <p>I am an amateur music producer and a hobbyist programmer</p>
                 </div>
                 </div>
             </div>
@@ -34,4 +35,4 @@ class ContactMe extends Component {
     }
 }
 
-export default ContactMe;
+export default Intro;

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import classNames from "classnames";
 import SimpleBar from "simplebar";
 
-import './Header.css';
+import './Components.css';
 
 let sBar;
 class Header extends Component {
@@ -40,9 +40,6 @@ class Header extends Component {
         return (
             <nav className={classNames("navbar", {"navbar--hidden": !this.state.visible})}>
                 <h1 className={"nav-item"}>DomasJar</h1>
-                <div className={"nav-item"}>
-                    <img src={'res/Spotify_Icon_CMYK_Black.png'} className={'nav-item'} style={{height: '48px'}}  alt={"icon"} onClick={()=> window.open("https://www.spotify.com", "_blank")}></img>
-                </div>
             </nav>
         );
     }

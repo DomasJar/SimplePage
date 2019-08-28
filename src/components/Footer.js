@@ -5,6 +5,7 @@ export const Footer = () =>{
         var styles = {
             fontSize: 'calc(6px + 1vmin)',
             padding: '2vmin',
+            paddingTop: '50px'
 
         }
         return (
