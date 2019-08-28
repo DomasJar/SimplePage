@@ -2,9 +2,8 @@
 .App {
   text-align: center;
     background-color:#282c34;
-    font-size: calc(10px + 2vmin);
-    color: #6d7789;
-    line-height: 3vmin;
+    font-size: 4vmin;
+    color: #909eaf;
 }
 
 .no-pad{
@@ -17,6 +16,22 @@
 }
 
 .pad-ud{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+@media only screen and (min-width: 1085px){
+    .App{
+        font-size: 4vmin;
+    }
 }

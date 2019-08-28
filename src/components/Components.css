@@ -1,14 +1,15 @@
-.mcontainer{
+.mcontainer-flex-row{
     flex-direction: row;
     justify-content: center;
 }
 
-.cont{
+.list-parent-component{
     position: relative;
     display: inline-flex;
     flex-wrap: wrap;
 }
-.cont-2{
+.hidden-parent{
+    font-size: 5vmin;
     position: relative;
     opacity: 1;
     bottom: 0;
@@ -16,6 +17,7 @@
 }
 
 .hidden{
+    color: #a5b3c4;
     position: relative;
     height: 0;
     opacity: 0;
@@ -23,18 +25,30 @@
     transition: opacity 1.2s, height 1s, top 1s;
     transition-delay: 0.4s;
 }
-.o--reveal{
+.o--expand-down-sm{
     opacity: 1;
-    height: calc(10px + 2vmin);
-    top: 1vmin;
+    height: 4vmin;
+    top: 1vmin
 }
-.o--reveal-2{
+.o--expand-down-md{
+    opacity: 1;
+    height: 8vmin;
+    top: 1vmin
+}
+.o--expand-down-lg{
+    opacity: 1;
+    height: 18vmin;
+    top: 1vmin
+}
+
+
+.o--expand-up{
     opacity: 0.2;
-    bottom: 2vmin;
+    bottom: 1vmin;
 }
 .navbar {
-    background-color: rgba(83, 99, 113, 1);
-    color: #d1e6ff;
+    background-color: rgb(24, 28, 36);
+    color: #909eaf;
     width: 100%;
     position: relative;
     top: 0;
@@ -48,5 +62,20 @@
     padding-left: 2vmin;
 }
 .icon{
-    height: 6vmin;
+    height: 8vmin;
+}
+
+@media only screen and (min-width: 650px){
+    .o--expand-down-lg{
+        height: 16vmin;
+    }
+}
+
+@media only screen and (min-width: 1085px){
+    .o--expand-down-lg{
+        height: 10vmin;
+    }
+    .o--expand-down-md{
+        height: 10vmin;
+    }
 }

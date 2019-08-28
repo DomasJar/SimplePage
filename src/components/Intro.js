@@ -21,14 +21,13 @@ class Intro extends Component {
 
     render() {
         return (
-
-            <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"cont"} >
+            <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"list-parent-component"} >
                 <div >
-                <p className={classNames("cont-2", {"o--reveal-2": !this.state.visible})}>Hello</p>
-                <div className={classNames("hidden", {"o--reveal": !this.state.visible})}>
-                    <p>My name is Domas</p>
-                    <p>I am an amateur music producer and a hobbyist programmer</p>
-                </div>
+                    <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Hello</p>
+                    <div className={classNames("hidden", {"o--expand-down-lg": !this.state.visible})}>
+                        <p>My name is Domas</p>
+                        <p>I am an amateur music producer and a hobbyist programmer</p>
+                    </div>
                 </div>
             </div>
         );

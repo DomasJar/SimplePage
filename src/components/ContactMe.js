@@ -21,10 +21,10 @@ class ContactMe extends Component {
 
     render() {
         return (
-            <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"cont"} >
+            <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"list-parent-component"} >
                 <div >
-                    <p className={classNames("cont-2", {"o--reveal-2": !this.state.visible})}>Contact</p>
-                <div className={classNames("hidden", {"o--reveal": !this.state.visible})}>
+                    <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Contact</p>
+                <div className={classNames("hidden", {"o--expand-down-md": !this.state.visible})}>
                     <p>Feel free to contact me if needed</p>
                     <p>placeholder@email.com</p>
                 </div>

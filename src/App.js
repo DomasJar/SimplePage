@@ -13,13 +13,13 @@ import Intro from "./components/Intro";
 import Media from "./components/Media";
 function App() {
   return (
-      <div className="App">
+      <div className="App noselect">
           <SimpleBar id="myBar" style={{height: '100vh'}}>
               <Header/>
               <div className="container-fluid">
                   <div className="row">
                       <div className="col">
-                          <Logo/>
+                        <Logo/>
                       </div>
                   </div>
                   <div className="row pad-ud">
