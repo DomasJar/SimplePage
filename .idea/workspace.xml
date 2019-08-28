@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +133,7 @@
       <workItem from="1566923468879" duration="658000" />
       <workItem from="1566924233984" duration="1788000" />
       <workItem from="1566926470545" duration="17768000" />
-      <workItem from="1567005698300" duration="7635000" />
+      <workItem from="1567005698300" duration="7883000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1566916337977</created>
@@ -160,7 +159,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1567013094259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Ig logo fixed">
+      <created>1567013969016</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1567013969016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +198,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Contact component and animations for it added" />
     <MESSAGE value="Intro/Media components, styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intro/Media components, styling" />
+    <MESSAGE value="Ig logo fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ig logo fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
