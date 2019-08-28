@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/res/Ig-logo_May2016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.npm deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -144,7 +134,7 @@
       <workItem from="1566923468879" duration="658000" />
       <workItem from="1566924233984" duration="1788000" />
       <workItem from="1566926470545" duration="17768000" />
-      <workItem from="1567005698300" duration="6801000" />
+      <workItem from="1567005698300" duration="7635000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1566916337977</created>
@@ -164,7 +154,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1566944445802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Intro/Media components, styling">
+      <created>1567013094259</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1567013094259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Contact component and animations for it added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact component and animations for it added" />
+    <MESSAGE value="Intro/Media components, styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intro/Media components, styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
