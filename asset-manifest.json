@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SimplePage/static/css/main.dffb5847.chunk.css",
-    "main.js": "/SimplePage/static/js/main.df29f5d3.chunk.js",
-    "main.js.map": "/SimplePage/static/js/main.df29f5d3.chunk.js.map",
+    "main.css": "/SimplePage/static/css/main.2c4f36a5.chunk.css",
+    "main.js": "/SimplePage/static/js/main.ca41faa9.chunk.js",
+    "main.js.map": "/SimplePage/static/js/main.ca41faa9.chunk.js.map",
     "runtime~main.js": "/SimplePage/static/js/runtime~main.f6f67237.js",
     "runtime~main.js.map": "/SimplePage/static/js/runtime~main.f6f67237.js.map",
     "static/css/2.38c1c84c.chunk.css": "/SimplePage/static/css/2.38c1c84c.chunk.css",
-    "static/js/2.f3bf28ea.chunk.js": "/SimplePage/static/js/2.f3bf28ea.chunk.js",
-    "static/js/2.f3bf28ea.chunk.js.map": "/SimplePage/static/js/2.f3bf28ea.chunk.js.map",
+    "static/js/2.bd16bc7f.chunk.js": "/SimplePage/static/js/2.bd16bc7f.chunk.js",
+    "static/js/2.bd16bc7f.chunk.js.map": "/SimplePage/static/js/2.bd16bc7f.chunk.js.map",
     "index.html": "/SimplePage/index.html",
-    "precache-manifest.08eac1ce674c3dd604023f90de94551c.js": "/SimplePage/precache-manifest.08eac1ce674c3dd604023f90de94551c.js",
+    "precache-manifest.666bac951c17d7f76e98e697d4b149e3.js": "/SimplePage/precache-manifest.666bac951c17d7f76e98e697d4b149e3.js",
     "service-worker.js": "/SimplePage/service-worker.js",
     "static/css/2.38c1c84c.chunk.css.map": "/SimplePage/static/css/2.38c1c84c.chunk.css.map",
-    "static/css/main.dffb5847.chunk.css.map": "/SimplePage/static/css/main.dffb5847.chunk.css.map"
+    "static/css/main.2c4f36a5.chunk.css.map": "/SimplePage/static/css/main.2c4f36a5.chunk.css.map"
   }
 }
