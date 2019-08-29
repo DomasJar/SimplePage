@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Activities.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +136,8 @@
       <workItem from="1566923468879" duration="658000" />
       <workItem from="1566924233984" duration="1788000" />
       <workItem from="1566926470545" duration="17768000" />
-      <workItem from="1567005698300" duration="18868000" />
+      <workItem from="1567005698300" duration="19373000" />
+      <workItem from="1567078311351" duration="2036000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1566916337977</created>
@@ -177,7 +175,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1567014124865</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Responsifiying text fields">
+      <created>1567027222592</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1567027222592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +215,8 @@
     <MESSAGE value="Contact component and animations for it added" />
     <MESSAGE value="Intro/Media components, styling" />
     <MESSAGE value="Ig logo fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ig logo fixed" />
+    <MESSAGE value="Responsifiying text fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsifiying text fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
