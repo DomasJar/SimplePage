@@ -6,7 +6,7 @@ import './App.css';
 
 import Logo from "./components/Logo";
 import Header from "./components/Header";
-import Carousel from "./components/Carousel";
+
 import Footer from "./components/Footer";
 import ContactMe from "./components/ContactMe";
 import Intro from "./components/Intro";

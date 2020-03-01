@@ -26,7 +26,7 @@ class ContactMe extends Component {
                     <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Contact</p>
                 <div className={classNames("hidden", {"o--expand-down-md": !this.state.visible})}>
                     <p>Feel free to contact me if needed</p>
-                    <p>placeholder@email.com</p>
+                    <p>domasjava@hotmail.com</p>
                 </div>
                 </div>
             </div>

@@ -1,7 +1,13 @@
+<!-- #282c34 -->
+
+:root{
+    --bg-color: #0d0f17
+
+}
 
 .App {
   text-align: center;
-    background-color:#282c34;
+    background-color: #0d0f17;
     font-size: 4vmin;
     color: #909eaf;
 }

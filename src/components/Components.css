@@ -27,7 +27,7 @@
 }
 .o--expand-down-sm{
     opacity: 1;
-    height: 4vmin;
+    height: 8vmin;
     top: 1vmin
 }
 .o--expand-down-md{
@@ -40,7 +40,11 @@
     height: 18vmin;
     top: 1vmin
 }
-
+.o--expand-down-xlg{
+    opacity: 1;
+    height: 22vmin;
+    top: 1vmin
+}
 
 .o--expand-up{
     opacity: 0.2;
@@ -65,17 +69,37 @@
     height: 8vmin;
 }
 
+.icon-lg{
+    height: 12vmin;
+}
+
 @media only screen and (min-width: 650px){
     .o--expand-down-lg{
         height: 16vmin;
     }
+
+}
+@media only screen and (min-width: 956px){
+    .o--expand-down-xlg{
+        height: 16vmin;
+    }
+
 }
 
 @media only screen and (min-width: 1085px){
+    .o--expand-down-xlg{
+        height: 16vmin;
+    }
     .o--expand-down-lg{
         height: 11vmin;
     }
     .o--expand-down-md{
+        height: 11vmin;
+    }
+}
+
+@media only screen and (min-width: 1425px){
+    .o--expand-down-xlg{
         height: 11vmin;
     }
 }

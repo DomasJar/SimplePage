@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Activities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/res/soundcloud_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DomasJ\WebstormProjects\simplepage\public\res" />
       <recent name="C:\Users\DomasJ\WebstormProjects\simplepage\public" />
       <recent name="C:\Users\DomasJ\WebstormProjects\simplepage\src" />
     </key>
@@ -138,6 +143,12 @@
       <workItem from="1566926470545" duration="17768000" />
       <workItem from="1567005698300" duration="19373000" />
       <workItem from="1567078311351" duration="2036000" />
+      <workItem from="1567084650117" duration="5293000" />
+      <workItem from="1567159892838" duration="597000" />
+      <workItem from="1570036293277" duration="689000" />
+      <workItem from="1570039135374" duration="1338000" />
+      <workItem from="1571418386175" duration="112000" />
+      <workItem from="1583098830181" duration="450000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1566916337977</created>
@@ -181,7 +192,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1567027222592</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Activities component">
+      <created>1567084860119</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1567084860119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +233,8 @@
     <MESSAGE value="Intro/Media components, styling" />
     <MESSAGE value="Ig logo fixed" />
     <MESSAGE value="Responsifiying text fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsifiying text fields" />
+    <MESSAGE value="Activities component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activities component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

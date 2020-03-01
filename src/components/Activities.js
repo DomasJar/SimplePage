@@ -21,7 +21,7 @@ class Activities extends Component {
             <div  onMouseOver={this.onFade} onMouseOut={this.onFade} className={"list-parent-component"} >
                 <div >
                     <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Activities</p>
-                    <div className={classNames("hidden", {"o--expand-down-lg": !this.state.visible})}>
+                    <div className={classNames("hidden", {"o--expand-down-xlg": !this.state.visible})}>
                         <p>Currently I'm studying Aviation Engineering and working part time job as an expeditor</p>
                         <p>Producing music and programming are my main hobbies</p>
                     </div>
