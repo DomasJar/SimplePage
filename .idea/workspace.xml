@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="" />
+    <list default="true" id="331bcdbb-dad6-451f-9b72-84100f1e0c63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.npm deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -139,7 +145,7 @@
       <workItem from="1570036293277" duration="689000" />
       <workItem from="1570039135374" duration="1338000" />
       <workItem from="1571418386175" duration="112000" />
-      <workItem from="1583098830181" duration="702000" />
+      <workItem from="1583098830181" duration="2201000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1566916337977</created>
@@ -195,7 +201,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1583099375334</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Activities component">
+      <created>1583099561699</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1583099561699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
