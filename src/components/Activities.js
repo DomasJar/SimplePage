@@ -22,8 +22,9 @@ class Activities extends Component {
                 <div >
                     <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Activities</p>
                     <div className={classNames("hidden", {"o--expand-down-xlg": !this.state.visible})}>
-                        <p>Currently I'm studying Aviation Engineering and working part time job as an expeditor for Biopolis</p>
-                        <p>Producing music and programming are my main hobbies</p>
+                        <p>I've been working for Shapescape as a gameplay developer since March of 2020</p>
+                        <p>I used to code in various programming languages(Java, C++, Javascript) as a hobby before that</p>
+                        <p> Since it became my job I usualy spend my free time making all sorts of diy projects, producing music and fixing my "race" car</p>
                     </div>
                 </div>
             </div>
