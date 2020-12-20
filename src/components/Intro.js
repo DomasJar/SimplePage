@@ -26,7 +26,7 @@ class Intro extends Component {
                     <p className={classNames("hidden-parent", {"o--expand-up": !this.state.visible})}>Hello</p>
                     <div className={classNames("hidden", {"o--expand-down-lg": !this.state.visible})}>
                         <p>My name is Dominykas</p>
-                        <p>I am a 21 year old student from Lithuania</p>
+                        <p>I am a 22 year old freelancer from Lithuania</p>
                     </div>
                 </div>
             </div>
