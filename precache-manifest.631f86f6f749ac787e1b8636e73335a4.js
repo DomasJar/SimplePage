@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f839b47f6f59b652a1ee1b70ef319d7",
+    "revision": "00a01d92355778ca3da7f805e300f55a",
     "url": "/SimplePage/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimplePage/static/css/2.b67cc632.chunk.css"
   },
   {
-    "revision": "9650db179cc79a6a9558",
-    "url": "/SimplePage/static/css/main.4f518e24.chunk.css"
+    "revision": "c4aad334cda413f9fc9b",
+    "url": "/SimplePage/static/css/main.d529f1c7.chunk.css"
   },
   {
     "revision": "567c1d2f3a459cfd7191",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimplePage/static/js/2.c7b64d67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9650db179cc79a6a9558",
+    "revision": "c4aad334cda413f9fc9b",
     "url": "/SimplePage/static/js/main.c311a026.chunk.js"
   },
   {
